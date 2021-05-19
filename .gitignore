@@ -1,0 +1,7 @@
+.idea/
+venv/
+docker-compose.yml
+.pytest_cache/
+.DS_Store
+geckodriver.log
+pytestdebug.log
