@@ -50,7 +50,6 @@ def browser(request):
         )
     elif browser == "safari":
         driver = webdriver.Safari()
-        driver.headless = headless
 
     else:
         raise ValueError("Driver not supported: {}".format(browser))
